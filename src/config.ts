@@ -1,10 +1,10 @@
 import type { PostHideElements } from '~/content/config';
 
-export const Site = '';
-export const SiteLanguage = 'zh';
-export const SiteTitle = 'TamilCoder';
-export const SiteDescription = '';
-export const FooterDescription = '';
+export const Site = 'http://www.tamilcoder.online';
+export const SiteLanguage = 'en';
+export const SiteTitle = 'Tamilcoder';
+export const SiteDescription = 'Tamilcoder';
+export const FooterDescription = 'tamilcoder';
 export const AdminName = 'sathya';
 export const PageSize = 15;
 
@@ -13,40 +13,40 @@ export const PageSize = 15;
 export const Socials: Record<string, Record<string, string>> = {
 	mail: { url: 'mailto:sathiyanm@gmail.com' },
 	github: { url: 'https://github.com/sathiyanm' },
-	// x: { url: 'https://x.com/userName' },
-	// mastodon: { url: 'https://mastodon.social/@userName' },
-	// facebook: { url: 'https://facebook.com/userName' },
-	// instagram: { url: 'https://instagram.com/userName' },
-	// telegram: { url: 'https://t.me/@userName' },
-	// youtube: { url: 'https://youtube.com/@userName' },
-	// skype: { url: 'https://skype.com/userName' },
-	// slack: { url: 'https://slack.com/userName' },
-	// messenger: { url: 'https://messenger.com/userName' },
-	// whatsapp: { url: 'https://whatsapp.com/userName' },
-	// snapchat: { url: 'https://snapchat.com/userName' },
-	// line: { url: 'https://line.com/userName' },
-	// twitch: { url: 'https://twitch.com/userName' },
-	// weibo: { url: 'https://weibo.com/userName' },
-	// bilibili: { url: 'https://space.bilibili.com/userName' },
-	// dingding: { url: 'https://dingtalk.com/userName' },
-	// zhihu: { url: 'https://zhihu.com/userName' },
-	// douban: { url: 'https://douban.com/userName' },
-	// rss: { url: '/rss.xml' },
+	x: { url: 'https://x.com/userName' },
+	mastodon: { url: 'https://mastodon.social/@userName' },
+	facebook: { url: 'https://facebook.com/userName' },
+	instagram: { url: 'https://instagram.com/userName' },
+	telegram: { url: 'https://t.me/@userName' },
+	youtube: { url: 'https://youtube.com/@userName' },
+	skype: { url: 'https://skype.com/userName' },
+	slack: { url: 'https://slack.com/userName' },
+	messenger: { url: 'https://messenger.com/userName' },
+	whatsapp: { url: 'https://whatsapp.com/userName' },
+	snapchat: { url: 'https://snapchat.com/userName' },
+	line: { url: 'https://line.com/userName' },
+	twitch: { url: 'https://twitch.com/userName' },
+	weibo: { url: 'https://weibo.com/userName' },
+	bilibili: { url: 'https://space.bilibili.com/userName' },
+	dingding: { url: 'https://dingtalk.com/userName' },
+	zhihu: { url: 'https://zhihu.com/userName' },
+	douban: { url: 'https://douban.com/userName' },
+	rss: { url: '/rss.xml' },
 };
 
 // doc: https://giscus.app
 // data-theme is auto changed between noborder_light / noborder_gray
 export const GiscusConfig: Record<string, string> = {
-	'data-repo': 'ladit/astro-blog-zozo',
-	'data-repo-id': 'R_kgDOLgobXQ',
+	'data-repo': 'sathiyanm/portfolio-website',
+	'data-repo-id': 'R_kgDOMbbYwg',
 	'data-category': 'Announcements',
-	'data-category-id': 'DIC_kwDOLgobXc4Cd_N6',
+	'data-category-id': 'DIC_kwDOMbbYws4ChMht',
 	'data-mapping': 'pathname',
 	'data-strict': '0',
 	'data-reactions-enabled': '1',
 	'data-emit-metadata': '0',
 	'data-input-position': 'top',
-	'data-lang': 'zh-CN',
+	'data-lang': 'en',
 	'data-loading': 'lazy',
 	crossorigin: 'anonymous',
 	async: '',
